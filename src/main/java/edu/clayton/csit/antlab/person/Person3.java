@@ -43,6 +43,13 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  //Person 3 put your implementation here
-	  return null;
+		
+		String rev = "";
+		
+		 for(int i = input.length() - 1; i >= 0; i--)
+        {
+            rev = rev + input.charAt(i);
+        }
+	  return rev;
 	}
 }
